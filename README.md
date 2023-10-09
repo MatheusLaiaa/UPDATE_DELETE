@@ -23,9 +23,6 @@ UPDATE Animais
 SET Peso = 10
 WHERE Nome = 'Garfield';
 
-
-### Altere a cor de todos os gatos para laranja;
-
 ### Crie um campo altura para os animais;
 
 ![image](https://github.com/MatheusLaiaa/UPDATE_DELETE/assets/144149403/4faaef18-001f-4479-bd0c-a6322b556c60)
@@ -49,14 +46,12 @@ ADD Observacao TEXT;
 DELETE FROM Animais
 WHERE Peso > 200;
 
-
 ### Remova todos os animais que o nome inicie com a letra ‘C’.
 
 ![image](https://github.com/MatheusLaiaa/UPDATE_DELETE/assets/144149403/46a92527-15c4-45e6-8a7e-574e6f6f6cad)
 
 DELETE FROM Animais
 WHERE Nome LIKE 'C%';
-
 
 ### Remova o campo cor dos animais;
 
@@ -65,14 +60,12 @@ WHERE Nome LIKE 'C%';
 ALTER TABLE Animais
 DROP COLUMN Cor;
 
-
 ### Aumente o tamanho do campo nome dos animais para 80 caracteres;
 
 ![image](https://github.com/MatheusLaiaa/UPDATE_DELETE/assets/144149403/90514798-97df-4609-aaee-a70f95cda22c)
 
 ALTER TABLE Animais
 ALTER COLUMN Nome VARCHAR(80);
-
 
 ### Remova todos os gatos e cachorros.
 
@@ -81,7 +74,6 @@ ALTER COLUMN Nome VARCHAR(80);
 DELETE FROM Animais
 WHERE Nome IN ('Garfield', 'Frajola', 'Manda-chuva', 'Snowball', 'Gato de Botas', 'Kitty', 'Milu', 'Rex', 'Bidu', 'Dum Dum', 'Muttley', 'Scooby', 'Rufus');
 
-
 ### Remova o campo data de nascimento dos animais.
 
 ![image](https://github.com/MatheusLaiaa/UPDATE_DELETE/assets/144149403/a73344c7-51ff-4e1e-acae-6f12960e68c7)
@@ -89,13 +81,11 @@ WHERE Nome IN ('Garfield', 'Frajola', 'Manda-chuva', 'Snowball', 'Gato de Botas'
 ALTER TABLE Animais
 DROP COLUMN Data_Nascimento;
 
-
 ### Remova todos os animais.
 
 ![image](https://github.com/MatheusLaiaa/UPDATE_DELETE/assets/144149403/541c65d1-d43c-437c-b040-9a1eace848c5)
 
 DELETE FROM Animais;
-
 
 ### Remova a tabela especies.
 
@@ -103,8 +93,9 @@ DELETE FROM Animais;
 
 DROP TABLE Animais;
 
+# ALUNO - EMAIL - RA
 
-
+Matheus Ferreira De Laia - matheuslaia664@gmail.com - 236012
 
 
 
